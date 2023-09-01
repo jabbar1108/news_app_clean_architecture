@@ -21,6 +21,7 @@ class ArticleEntity extends Equatable {
     this.content,
   });
 
+  @override
   List<Object?> get props {
     return [
       id,
